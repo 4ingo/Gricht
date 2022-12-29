@@ -1,0 +1,78 @@
+.our{
+  padding: 128px 0;
+  &-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 111px;
+  }
+  &-text{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+    position: relative;
+    &-before{
+      content: '';
+      position: absolute;
+      background:url("../images/Vector.png");
+      width: 40px;
+      height: 10px;
+      top: 100%;
+      left: 0;
+      margin:25px  0 64px ;
+    }
+  }
+  &-title{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+
+  }
+
+  &-left-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px 32px;
+  }
+  &-card{
+    width: calc(50% - 32px);
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+    color: #FFFFFF;
+    &-title{
+      margin-bottom: 8px;
+      font-family: 'Cormorant Upright', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 23px;
+      line-height: 130%;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      font-feature-settings: 'tnum' on, 'lnum' on;
+      color: #DCCA87;
+    }
+    &-subtitle{
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 175%;
+      letter-spacing: 0.04em;
+      color: #AAAAAA;
+    }
+  }
+
+}

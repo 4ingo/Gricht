@@ -1,0 +1,91 @@
+.menu{
+  padding: 48px 0 148px;
+  margin: 0 auto;
+  &-row{
+    display: flex;
+    column-gap: 180px;
+    align-items: center;
+  }
+  &-subtitle{
+    font-family: 'Cormorant Upright',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+    position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      bottom: -20px;
+      left: 0;
+      width: 40px;
+      height: 9px;
+      background: url("../images/Vector.png");
+    }
+  }
+  &-title{
+    font-family: 'Cormorant Upright',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #DCCA87;
+    margin:25px 0 32px;
+  }
+  &-info{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA
+  }
+  &-btn{
+    font-family: 'Cormorant Upright',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #0C0B08;
+    margin-top: 25px;
+    background: #DCCA87;
+    padding: 8px 32px;
+    cursor: pointer;
+  }
+  &-img{
+    position: relative;
+    z-index: 100;
+  }
+  &-right{
+    position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      width: 435px;
+      height: 435px;
+      background: #DCCA87;
+      z-index: 5;
+      top: -20px;
+      right:-20px;
+    }
+    &:after{
+      content: '';
+      position: absolute;
+      width: 435px;
+      height: 435px;
+      background: #DCCA87;
+      z-index: 20;
+      bottom: -20px;
+      left: -20px;
+  }
+
+  }
+}

@@ -1,0 +1,45 @@
+.barHome{
+  padding-bottom:85px;
+  height: calc(100vh - 121.2px);
+  background:url("../../src/images/BG.jpg");
+  position: relative;
+  text-align: center;
+  &-img{
+    height: calc(100vh - 259px);
+  }
+  &-title{
+    position: absolute;
+    top: 319px;
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 181px;
+    line-height: 130%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    transform: translateY(-50%);
+    left: 0;
+    white-space: nowrap;
+  }
+  &-scroll{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #DCCA87;
+    position:relative;
+    &:before{
+      content: '';
+      height: 61px;
+      width: 1px;
+      background: #FFFFFF;
+      position: absolute;
+      top: -75px;
+      left: 50%;
+    }
+  }
+}

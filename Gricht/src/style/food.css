@@ -1,0 +1,38 @@
+.food {
+  padding: 93px 0 79px;
+  background: url("../../src/images/BG.jpg");
+  width: 100%;
+}
+.food-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 143px;
+     -moz-column-gap: 143px;
+          column-gap: 143px;
+}
+.food-row-right-row-subtitle {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+}
+.food-row-right-row-title {
+  margin-top: 25px;
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #DCCA87;
+}

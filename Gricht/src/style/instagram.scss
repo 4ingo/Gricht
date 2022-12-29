@@ -1,0 +1,69 @@
+.instagram {
+  padding: 129px 0;
+
+  &-btn {
+    display: block;
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+    background: #DCCA87;
+  }
+    &-text {
+      font-family: 'Cormorant Upright', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 23px;
+      line-height: 130%;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      font-feature-settings: 'tnum' on, 'lnum' on;
+      color: #FFFFFF;
+
+    }
+
+    &-title {
+      font-family: 'Cormorant Upright', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 64px;
+      line-height: 130%;
+      letter-spacing: 0.03em;
+      text-transform: capitalize;
+      font-feature-settings: 'tnum' on, 'lnum' on;
+      color: #DCCA87;
+      text-align: left;
+      margin: 25px 0;
+
+    }
+
+    &-subtitle {
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 175%;
+      letter-spacing: 0.04em;
+      color: #AAAAAA;
+      margin: 24px 24px;
+    }
+
+   &-row{
+     display: flex;
+     align-items: center;
+     column-gap: 64px;
+     justify-content: center;
+   }
+  &-left{
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+    &-img{
+      width: calc(50% - 32px);
+      height: 447px ;
+    }
+  }
+}

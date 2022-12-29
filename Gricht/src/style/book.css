@@ -1,0 +1,98 @@
+.book {
+  padding: 157px 0 152px;
+}
+.book-form {
+  background: #0C0C0C;
+  border: 1px solid rgba(220, 202, 135, 0.2);
+  -webkit-box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+          box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+  width: 1364px;
+  padding: 48px 0 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+.book-form:before {
+  content: "";
+  position: absolute;
+  width: 146px;
+  height: 146px;
+  background: url("/src/images/icon.png");
+  top: -50%;
+  right: 0;
+}
+.book-form-title {
+  margin: 25px 0 64px;
+}
+.book-form-subtitle {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+  position: relative;
+}
+.book-form-subtitle:before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 9px;
+  background: url("/src/images/Vector.png");
+  bottom: -20px;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+.book-form-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 32px;
+     -moz-column-gap: 32px;
+          column-gap: 32px;
+  margin-bottom: 64px;
+}
+.book-form-btn {
+  padding: 8px 32px;
+  background: #DCCA87;
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #0C0C0C;
+}
+.book-form-select {
+  width: 412px;
+  padding: 16px;
+  border: 1px solid #F5EFDB;
+  background: transparent;
+  font-family: "Cormorant Upright", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #AAAAAA;
+}

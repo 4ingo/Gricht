@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@700&family=Open+Sans:ital@1&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-style: normal;
+}
+.container-big{
+  max-width: 1680px;
+  margin: 0 auto;
+}
+.container-small{
+  max-width: 1300px;
+  margin: 0 auto;
+}
+body{
+  background:#0C0B08;
+}
+.title{
+  font-family: 'Cormorant Upright', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  color: #DCCA87;
+}
+@import "header";
+@import "menu";
+@import "about";
+@import "book";
+@import "barMenu";
+@import "today";
+@import "chef";
+@import "custom";
+@import "video";
+@import "barHome";
+@import "our";
+@import "blogs";
+@import "instagram";
+@import "forms";
+@import "footer";

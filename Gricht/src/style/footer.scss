@@ -1,0 +1,73 @@
+.footer{
+  padding: 128px 0 ;
+  &-date{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    margin: 80px 0;
+  }
+  &-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    &-icons{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      column-gap: 17px;
+    }
+    &-title {
+      font-family: 'Cormorant Upright', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 130%;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      font-feature-settings: 'tnum' on, 'lnum' on;
+      color: #F5EFDB;
+    }
+      &-text{
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        color: #AAAAAA;
+        margin: 24px 0 8px;
+    }
+  }
+&-title{
+  font-family: 'Cormorant Upright', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #DCCA87;
+}
+&-subtitle{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  margin: 32px 0 51px ;
+}
+}

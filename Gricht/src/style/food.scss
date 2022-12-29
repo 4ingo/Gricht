@@ -1,0 +1,35 @@
+.food{
+  padding: 93px 0 79px;
+  background: url("../../src/images/BG.jpg");
+  width: 100%;
+  &-row{
+    display: flex;
+    column-gap:143px;
+
+  &-right-row-subtitle{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+  }
+  &-right-row-title {
+    margin-top: 25px;
+
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+
+  }
+  }
+}

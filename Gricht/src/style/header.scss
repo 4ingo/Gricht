@@ -1,0 +1,55 @@
+.header{
+  padding: 32px 0;
+  &-logo{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  &-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  //&-link{
+  //  font-family: 'Open Sans',sans-serif;
+  //  font-style: normal;
+  //  font-weight: 400;
+  //  font-size: 16px;
+  //  line-height: 175%;
+  //  letter-spacing: 0.04em;
+  //  color: #FFFFFF;
+  //}
+  &-list{
+    display: flex;
+    column-gap: 32px;
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+  }
+  &-logins{
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+  }
+  &-login, &-book{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+}
